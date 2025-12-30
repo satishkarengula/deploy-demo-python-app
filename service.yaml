@@ -4,6 +4,7 @@ metadata:
   name: my-app-service
   labels:
     app: my-app
+  namespace: default
 spec:
   selector:
     app: my-app
